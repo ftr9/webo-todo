@@ -1,0 +1,66 @@
+.dashboard_page {
+  padding: 0rem 10rem;
+}
+@media (max-width: 1250px) {
+  .dashboard_page {
+    padding: 0 5rem;
+  }
+}
+@media (max-width: 500px) {
+  .dashboard_page {
+    padding: 0 1.5rem;
+  }
+  .selectoption {
+    width: 12rem !important;
+    font-size: 1.4rem !important;
+  }
+}
+.dashboard_page_empty {
+  margin-top: 2rem;
+  text-align: center;
+}
+.dashboard_page_empty h2 {
+  margin-bottom: 1.5rem;
+}
+
+.dashboard_page_empty_button {
+  width: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+.dashboard_page_content {
+  margin-top: 2.5rem;
+}
+.dashboard_page_content_button {
+  display: flex;
+  justify-content: center;
+}
+
+.selectoption {
+  width: 14rem;
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 5rem;
+  font-family: inherit;
+  font-size: inherit;
+  margin-left: 1rem;
+  text-align: center;
+}
+.selectoption option {
+  color: white;
+}
+.selectoption:focus {
+  outline: none;
+}
+.selectoption option:active {
+  outline: none;
+}
+
+.dashboard_page_content_activity {
+  text-align: center;
+  padding: 2.5rem 0;
+  font-weight: 700;
+}

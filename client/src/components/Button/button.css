@@ -1,0 +1,83 @@
+.buttonCommon {
+  background: linear-gradient(
+    to right bottom,
+    var(--dominant_color_2),
+    var(--dominant_color_1)
+  );
+  color: white;
+  padding: 1.2rem 2rem;
+  font-size: 1.5rem;
+  width: 18rem;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 0.2s ease;
+}
+.buttonCommon:active {
+  transform: translateY(3px);
+}
+@media (max-width: 500px) {
+  .buttonCommon {
+    font-size: 1.4rem;
+    padding: 1.2rem 1.8rem;
+    width: 14rem;
+  }
+  .tertiaryButton {
+    width: 11.5rem !important;
+  }
+
+  .secondarybutton {
+    padding: 1rem 1.2rem !important;
+    width: 10rem !important;
+  }
+}
+@media (max-width: 320px) {
+  .tertiaryButton {
+    padding: 1rem 1.2rem;
+    width: 10rem !important;
+    font-size: 1.19rem;
+  }
+}
+
+.primarybutton {
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+.primarybutton:hover {
+  cursor: pointer;
+}
+
+.secondarybutton {
+  border-radius: 10rem;
+}
+.secondarybutton:hover {
+  cursor: pointer;
+}
+.secondarybuttonSmall {
+  width: 12rem;
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+}
+
+.secondarybuttonNoBg {
+  background: none;
+  color: black;
+  border: 1px solid var(--dominant_color_1);
+}
+
+.tertiaryButton {
+  display: flex;
+  justify-content: space-between;
+  width: 12.5rem;
+  border-radius: 10rem;
+  align-items: center;
+}
+.tertiaryButton:hover {
+  cursor: pointer;
+}
+.tertiaryButton svg {
+  fill: white;
+}
+.tertiaryButton p {
+  color: white;
+}

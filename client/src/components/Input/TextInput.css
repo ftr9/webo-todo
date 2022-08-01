@@ -1,0 +1,25 @@
+.textinput {
+  padding: 1.2rem 1rem;
+  border: 1px solid var(--dominant_color_1);
+  background: none;
+  border-radius: 0.4rem;
+  color: black;
+  margin: 1rem 0;
+  font-family: inherit;
+  font-size: inherit;
+}
+.textinput:focus {
+  outline: none;
+}
+.textinput::placeholder {
+  color: black;
+}
+
+@media (max-width: 425px) {
+  .textinput {
+    font-size: 1.4rem;
+    display: block;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
