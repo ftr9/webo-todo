@@ -11,6 +11,8 @@ backend...
 2.my sql
 3.Express js
 
+# MVC (Model-View-Controller) architecture
+
 # utility packages used
 
 1. bcrypt.js - for storing hashed password in database
